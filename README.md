@@ -7,19 +7,17 @@ A simple JavaScript for common actions.
 Add the following script into your HTML:
 
 ```html
-<body>
-	<button x-toggle="body:menu">Toggle</button>
-
-	<script src=""></script>
-</body>
+<script src="https://cdn.jsdelivr.net/gh/rilwis/ejs/e.js"></script>
 ```
 
-Toggle a class of an element:
+Toggle a class of an element by adding `x-toggle` attribute to a trigger element with value `selector:className`.
+
+The code bellow will toggle the `menu` class of the `body` element when click the button:
 
 ```html
 <body>
 	<button x-toggle="body:menu">Toggle</button>
 
-	<script src=""></script>
+	<script src="https://cdn.jsdelivr.net/gh/rilwis/ejs/e.js"></script>
 </body>
 ```
